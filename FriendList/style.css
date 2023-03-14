@@ -1,0 +1,14 @@
+.card {
+  width: 10rem;
+}
+.navbar-container{
+  margin:10px;
+}
+.card-footer{
+  display:flex;
+  justify-content: center;
+}
+
+.fa-solid{
+  width:80px;
+}

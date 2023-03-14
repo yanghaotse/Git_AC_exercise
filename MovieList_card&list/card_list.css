@@ -1,0 +1,45 @@
+/* .fa-solid{
+  margin-left: 20px;
+} */
+/* #change-mode{
+  float: right;
+}
+/* .row{
+  position: relative;
+} */
+/* input{
+  display:inline-block;
+  width:60%;
+}
+#search-button{
+  display:inline-block;
+} */ 
+#search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#search-input {
+  flex: 1;
+}
+
+#search-button {
+  margin-left: 10px;
+}
+#change-mode {
+  position: absolute;
+  top: 10;
+  right: 0;
+  border:1cm;
+
+}
+.list-button{
+  display:inline-block;
+  position:absolute;
+  right:100px;
+  top:0px;
+}
+.list-group-item{
+  position:relative;
+}
