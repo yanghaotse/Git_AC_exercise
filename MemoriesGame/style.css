@@ -1,0 +1,46 @@
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  /* 卡片在容器裡的排版 */
+  flex: 7% 0 1 ;
+  height: 8vw;
+  border: 2px solid #e0e0e0; /* 代表佔視窗的8% */
+
+  /*卡片內部元素的排版  */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 2px;
+  box-sizing: border-box;
+  /* 
+  flex-basic : 一個彈性元素在容器裡所佔的大小，可填 百分比、px或任何單位--> 一排放13張約為7%
+
+  flex-grow: 定義一個彈性元素的延伸比例，也就是彈性元素空間不足時如何增加大小。它接受一個正整數值，用來表示相對於其他彈性元素的增長比例。比如說，如果有兩個彈性元素，其中一個 flex-grow 屬性設置為 1，另一個設置為 2，則第二個元素將增長的比例是第一個元素的兩倍。
+
+  flex-shrink:定義了彈性元素收縮的比例，也就是彈性元素空間過多時如何縮小大小。它接受一個正整數值，用來表示相對於其他彈性元素的縮小比例。如果所有的彈性元素的 flex-shrink 屬性都設置為 1，則它們將以相等的比例進行收縮。*/
+}
+.card img {
+  max-width: 30%;
+  max-height: 100%;
+  align-self: center;
+}
+.card p {
+  margin: 3px;
+  font-size: 10px;
+}
+
+/* 控制字體倒轉180度 */
+.card p:last-child{
+  transform: rotate(180deg);
+}
+
+.back{
+ background: url('https://assets-lighthouse.alphacamp.co/uploads/image/file/9222/ExportedContentImage_00.png'); 
+ background-size: cover;
+}
+.paired {
+  background-color: #dae0e3;
+}
+
